@@ -1,0 +1,39 @@
+{
+  "name": "atropos-split",
+  "version": "1.0.0",
+  "description": "Image tile splitter - cut images into uniform grids",
+  "main": "src/atropos.ts",
+  "bin": {
+    "atropos": "src/atropos.ts"
+  },
+  "scripts": {
+    "start": "bun run src/atropos.ts",
+    "build": "bun run scripts/build.ts",
+    "build:linux": "bun build src/atropos.ts --compile --target=bun-linux-x64 --outfile=dist/atropos-linux",
+    "build:mac": "bun build src/atropos.ts --compile --target=bun-darwin-x64 --outfile=dist/atropos-macos",
+    "build:mac-arm": "bun build src/atropos.ts --compile --target=bun-darwin-arm64 --outfile=dist/atropos-macos-arm",
+    "build:windows": "bun build src/atropos.ts --compile --target=bun-windows-x64 --outfile=dist/atropos-windows.exe"
+  },
+  "keywords": [
+    "image",
+    "tile",
+    "split",
+    "sprite",
+    "tileset",
+    "game-dev",
+    "pixel-art"
+  ],
+  "author": "Johnathan Kuskos",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jkuskos/atropos.git"
+  },
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
