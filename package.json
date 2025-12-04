@@ -27,7 +27,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jkuskos/atropos.git"
+    "url": "https://github.com/0xB4D1DEA/atropos.git"
   },
   "engines": {
     "bun": ">=1.0.0"

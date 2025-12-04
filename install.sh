@@ -4,7 +4,7 @@
 
 set -e
 
-REPO="jkuskos/atropos"
+REPO="0xB4D1DEA/atropos"
 INSTALL_DIR="/usr/local/bin"
 
 # Detect OS and architecture

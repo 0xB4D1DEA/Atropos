@@ -18,7 +18,7 @@ Perfect for game development, sprite sheets, and tilesets.
 
 ### Option 1: Download Binary (Easiest)
 
-Download the pre-built binary for your platform from [Releases](https://github.com/jkuskos/atropos/releases):
+Download the pre-built binary for your platform from [Releases](https://github.com/0xB4D1DEA/atropos/releases):
 
 - `atropos-linux` - Linux x64
 - `atropos-macos` - macOS Intel
@@ -41,7 +41,7 @@ If you have [Bun](https://bun.sh) installed:
 
 ```bash
 # Clone and install globally
-git clone https://github.com/jkuskos/atropos.git
+git clone https://github.com/0xB4D1DEA/atropos.git
 cd atropos
 bun install
 bun link
@@ -118,7 +118,7 @@ Tiles are named by their grid position:
 ## Building from Source
 
 ```bash
-git clone https://github.com/jkuskos/atropos.git
+git clone https://github.com/0xB4D1DEA/atropos.git
 cd atropos
 bun install
 
